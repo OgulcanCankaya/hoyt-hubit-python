@@ -1,0 +1,41 @@
+Merhabalar,
+Bu hafta da sizler için 2-3 küçük egzersizimiz var.
+
+Bu hafta listeleri, boolean yapıları (True/False), if-elif-else yapılarını ve son olarak fonksiyon yapılarını gördük.
+Bu yapıların kombinasyonlarını pratike etmeniz önemlidir. Bu yüzden aşağıdaki egzersizleri yapmanız önem arz etmekte.
+
+1-a. Parametre olarak bir liste alan bir fonksiyon yazın ve bu fonksiyonda, liste elemanlarının çarpımları toplamını bastırın.
+Örnek liste = [2, 3, 5, 8] örnek çıktı = 240
+Örnek liste = [10, 5, 3]   örnek çıktı = 150
+vb.
+
+1-b. Üstteki sorunun çarpım değil toplam işlemi için olan versiyonunu yapabilirsiniz.
+
+2. Faktöriyel işlemi için bir fonksiyon yazınız. 
+Örnek fonks(n) girdisi bize n x (n-1) x (n-2) x (n-3) x ... x 2 x 1 çıktısını vermeli.
+Örnek n = 5 çıktı = 120
+Örnek n = 11 çıktı = 39916800
+
+3. Girdi olarak sadece bir sayı alan ve sıfır dahil bu sayıya kadar olan bütün sayıların karelerini bastıran bir fonksiyon yazın.
+
+4. Girdi olarak 2 kelime alan ve bu iki kelimenin kelime uzunluklarının çarpımları kadar isim ve soy isimi bastıracak bir fonksiyon yazınız.
+Örnek girdi = "Mert","Demir" örnek çıktı = 4*5 = 20 defa "Mert Demir" satırını bastıracak.
+Adınız uzunsa benim gibi bir arkadaşınızı feda edebilirsiniz :)
+
+5. Eşkenar, ikizkenar ve eşkenar olmayan (her kenarı farklı uzunlukta) olan üçgenler için, verilen kenar uzunluklarına bakaran tür belirleyen bir fonksiyon yazınız.
+bu_nasıl_ucgen(kenar1,kenar2,kenar3) methodu bizlere print kullanarak "eşkenar", "ikizkenar" veya "eşitliksiz üçgen" sonuçlarını bastırmalı.
+
+6. Girilen bir N sayısı için çarpım tablosunu hazırlayan bir method yazınız.
+carpım_tablosu(6)
+Bizlere: 
+
+6 x 1 = 6                                                               
+6 x 2 = 12                                                              
+6 x 3 = 18                                                              
+6 x 4 = 24                                                              
+6 x 5 = 30                                                              
+6 x 6 = 36                                                              
+6 x 7 = 42                                                              
+6 x 8 = 48                                                              
+6 x 9 = 54                                                              
+6 x 10 = 60  çıktısını vermeli.
