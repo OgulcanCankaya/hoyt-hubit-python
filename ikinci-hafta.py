@@ -56,10 +56,14 @@ print("Hal böyleyken kodlarınızda da buna ihtiyacınız olabilir.")
 print("İşte if-elif-else size burada yardımcı oalcaktır.")
 print("Örnek verelim")
 
+
 boy = 1.77
 kilo = 90
 vki=kilo/(boy**2)
 
+
+print("Verilen değişkenlere göre", boy , "uzunluğunda",kilo,"kilo bir erkeğin vücut kitle endeksi",vki,"dir")
+print("Buna göre VKİ yorumları:")
 if(vki > 50):
     print("Hayatta kalmak için kilo verin. VKİ 50'den yüksek.")
 elif(vki > 45):
@@ -75,7 +79,7 @@ elif(vki > 20):
 else:
     print("Çok zayıfsınız")
 
-print("Peki iç içe kullansaydık ?")
+print("Boy yorumları:")
 
 if(boy > 1.75):
     print("Türkiye ortalamasına göre uzunsunuz.")
@@ -98,17 +102,14 @@ print("Gelelim liste yapılarının kullanımına")
 
 list=[2,3,5,8,13,21]
 
-print(type(list),list[0],list[1])
+print("list=[2,3,5,8,13,21] listesinin type'ı=",type(list),"list[0]=",list[0],"list[1]=",list[1])
 
-print(" __  __  __  __  __  __ ")
-print("| a|| b|| c||  ||  ||  |")
-print(" --  --  --  --  --  -- ")
 print("Index bazlı erişim")
 print("liste_adı[index_sayısı]")
-print("\nlist[0]=2") # n = newline  t = tab
-print("")
 
+print("\nlist[0]=2\n\n") # n = newline  t = tab
 
+print("\t\tİndex bazlı erişim görselleştirmesi\n")
 print("   __  __  __  __  __  __  ")
 print("  | 2|| 3|| 5|| 8||13||21| ")
 print("   --  --  --  --  --  --  ")
@@ -123,6 +124,7 @@ print("Range bastırmaca")
 for x in range(5):
     print(x)
 
+print("Kim kimi buldu ?")
 for x in list:
     if x==8:
         print("Buldum")
@@ -130,6 +132,7 @@ for x in list:
         print("Bu değil")
 #break pass
 
+print("break nedir yenir mi ?")
 for i in range(8):
     if i == 5:
         print("Breakpoint")
@@ -137,6 +140,7 @@ for i in range(8):
     else:
         print("Daha break yok")
 
+print("pass nedir içilir mi ?")
 for i in range(8):
     if i == 5:
         print("Breakpoint")
@@ -151,14 +155,14 @@ def funcname(parameter_list):
     """
     pass
 
-
+print("\nBastır Fonksiyonu\n")
 def bastır(satir):
     """
     Yorum nedir nasıl yapılır
     """
     print(satir)
 
-
+print("\En buyuk Fonksiyonu\n")
 def en_buyuk (liste):
     temp=0
     for i in liste:
@@ -166,6 +170,7 @@ def en_buyuk (liste):
             temp = i
     print(temp)
 
+print("\En buyuk return Fonksiyonu\n")
 def en_buyuk_return (liste):
     temp=0
     for i in liste:
@@ -173,6 +178,7 @@ def en_buyuk_return (liste):
             temp = i
     return (temp)
 
+print("\Kosullu Return Fonksiyonu\n")
 def kosullu_return(liste):
     temp=0
     temp_bool = False
@@ -186,6 +192,7 @@ def kosullu_return(liste):
     else:
         return (temp)
 
+print("\nSpoiler Fonksiyonu\n")
 def spoiler(bir_sayı):
     if not (bir_sayı.isnumeric()):
         print("Bir sayı girmeniz gerekmekte")
