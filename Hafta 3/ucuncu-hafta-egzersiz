@@ -6,7 +6,6 @@ Bir sayının kendi hariç bölenlerinin toplamı kendine eşitse bu sayıya "m�
 
 2. 1'den 1000'e kadar olan sayılardan mükemmel sayı olanları ekrana yazdırın. Bunun için bir sayının mükemmel olup olmadığını dönen bir tane fonksiyon yazın.
 
-
 3. 1'den 100'e kadar olan sayılardan sadece 3'e bölünen sayıları ekrana bastırın. Bu işlemi continue ile yapmaya çalışın.
 
 4. Sayı tahmin oyunu oluşturun.
