@@ -1,0 +1,19 @@
+Merhabalar, yeni bir ödeve daha hepiniz hoş geldiniz :)
+3. Hafta ödevleri aşağıdaki gibidir.
+
+1.Kullanıcıdan aldığınız bir sayının mükemmel olup olmadığını bulmaya çalışın.
+Bir sayının kendi hariç bölenlerinin toplamı kendine eşitse bu sayıya "mükemmel sayı" denir. Örnek olarak, 6 mükemmel bir sayıdır. (1 + 2 + 3 = 6)
+
+2. 1'den 1000'e kadar olan sayılardan mükemmel sayı olanları ekrana yazdırın. Bunun için bir sayının mükemmel olup olmadığını dönen bir tane fonksiyon yazın.
+
+
+3. 1'den 100'e kadar olan sayılardan sadece 3'e bölünen sayıları ekrana bastırın. Bu işlemi continue ile yapmaya çalışın.
+
+4. Sayı tahmin oyunu oluşturun.
+Sayı tahmin oyunu dediğimiz şey, belirli bir sınır içindeki sayılar içinden, bilgisayarın rastgele tuttuğu bir sayıyı kullanıcının bulması oyunudur.
+Örneğin, 1 den 100 e kadar sayılar arasından bilgisayar 49 sayısını seçti, kullanıcı da 49 sayısını bulana kadar oyun devam edecek.
+Kullanıcıdan "python sayitahmin.py altsinir üstsinir" şeklinde input alacaksınız (sys.argv'ı hatırlayın). Eğer altsinir > üstsinir ise program hata verip kapanacak.
+Tüm modülleri öğretmeyeceğimizi söylemiştik. random modülünü araştırın (bilgisayarın rastgele bir sayı tutabilmesi için).
+Kullanıcı sayıyı doğru bilene kadar oyun devam edecek. Doğru bilirse bu doğru bilmeyi kaç denemede yaptığını kullanıcıya söyleyip, tebrik edip programı kapatacağız.
+Programdan çıkış için sys.exit() kullanabilirsiniz, break kullanabilirsiniz. Tercih size kalmış.
+ 
