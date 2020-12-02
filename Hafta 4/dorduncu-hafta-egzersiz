@@ -1,0 +1,15 @@
+Merhabalar arkadaşlar.
+
+Bu hafta 4. haftamızın sonuna geldik ve bunu bir ödev ile kutlayalım diyoruz.
+Aşağıda detaylarını bulacağınız ödeviniz için bilmeniz gereken her şeyi daha önce öğrendiniz.
+Yine de zorlanmanız halinde github repolarından işlenen konulara bakabilir ve bizlere sorabilirsiniz.
+Tekli ödevlere nispeten bu ödevin çözümü *YAPILMAYACAKTIR*. Bu ödevin amacı her ödevde olduğu gibi kendi gelişiminizdir.
+
+Konu: 4 hafta içerisinde görmüş olduğunuz konular özelinde sayı, satır işlemlerini, çeşitli veri yapılarını gördünüz. Bu konuların tamamını kapsayan bir etkileşimli program yazmanızı istiyorum. Program çalıştırıldığında size "Ne ile işlem yapmak istersin?" sorusunu soracak ve "Sayılar, Satırlar, Sözlükler" vb. şekilde bir çıktı verip sizden bir girdi(input) bekleyecek.
+Bu input sonucunda sayılarda toplama-çıkarma, satırlarda capitalize-isnumeric, sözlüklerde "kitap --> book" gibi işlemleri yapmak için sizlere bir seçenek sunmalı ve seçiminize göre işleminizi yapabilmelisiniz.
+Sözlükleriniz önden tanımlı olabilir, try except bloklarıyla hata ayıklayabilir, daha önce while döngüsünde yapmış bulunduğumuz bu örneği geliştirebilirsiniz.
+
+Final dersimizden sonra verilecek olan ödeviniz için hazırlık olacağına inanıyorum ve şu ana kadar sabreden herkesi selamlıyorum.
+Bu haftanın ödevinin özellikle zor (kazık) olması için uğraşmadık. Uzun süredir aklımızdaydı.
+
+Kolaylıklar dileriz :)
