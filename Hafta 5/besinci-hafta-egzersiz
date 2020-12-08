@@ -1,0 +1,49 @@
+1. Kullanıcıdan Ad-Soyad, öğrenci numarası, vize 1, vize 2 ve final notlarını alın. Aşağıdaki mantığa göre, kullanıcı eğer
+dersten geçmişse kullanıcıyı Ad, Soyad, Öğrenci Numarası, Not formatıyla gecti.txt dosyasına, eğer kaldıysa kaldi.txt dosyasına
+kaydedin. Bu dosyaları kendiniz oluşturun.
+
+Vize1 toplam notun %30'una etki edecek.
+Vize2 toplam notun %30'una etki edecek.
+Final toplam notun %40'ına etki edecek.
+
+Toplam Not >=  90 -----> AA
+Toplam Not >=  85 -----> BA
+Toplam Not >=  80 -----> BB
+Toplam Not >=  75 -----> CB
+Toplam Not >=  70 -----> CC
+Toplam Not >=  65 -----> DC
+Toplam Not >=  60 -----> DD
+Toplam Not >=  55 -----> FD
+Toplam Not <  55 -----> FF
+
+2. Elinizde bir dikdörtgenin kenarlarını ifade eden sayı çiftlerinin bulunduğu bir liste olsun.
+
+         [(3,4),(10,3),(5,6),(1,9)]
+
+Şimdi kenar uzunluklarına göre dikdörtgenin alanını hesaplayan bir fonksiyon yazın ve bu listenin her bir elemanına bu fonksiyonu uygulayarak ekrana şöyle bir liste yazdırın.
+
+         [12, 30, 30, 9]
+
+3.Elinizde uzunca bir string olsun.
+
+            "PythonProgramlamaDiliniÇokSeviyorum"
+
+
+Bu string içindeki harflerin frekansını (bir harfin kaç defa geçtiği) bulmaya çalışın.
+
+4. "şiir.txt" şeklinde bir dosya oluşturun ve içinde şu satırlar yer alsın.
+
+                    Memlekete sis çökmüş bir gece 
+                    Usulca yanağıma sen düşüyorsun
+                    Sabah saat dokuzu beş geçe
+                    Terk edip bizleri gidiyorsun
+                    Ayrılık bu kadar yakmamıştı içimizi
+                    Farkında mısın bilmiyorum
+                    Aldın beraberinde cumhuriyetimizi
+                    Korkunç bir veda, sararmıştı her yer
+                    Ellerini uzat tutmak istiyoruz
+                    Masmavi gözleri kaybetmiş çocuk
+                    Aldı bir sabah ruhumuzu
+                    Lakin nasıl bölmesin yokluğun uykumuzu
+
+Bu dosyanın her bir satırını okuyun. Satırların baş harflerini birbirine ekleyerek bir string oluşturun ve bu string'i ekrana yazdırın.
