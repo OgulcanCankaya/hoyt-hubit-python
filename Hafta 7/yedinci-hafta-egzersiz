@@ -1,0 +1,20 @@
+Bu haftanın alıştırması, yalnızca bir egzersizden oluşmakta.
+
+Bu alıştırmayı yapabilmek için matplotlib kütüphanesini pip ile kurmanız gerekmekte.
+
+İki tane, içlerindeki sayılar rastgele olacak şekilde 3x3'lük NumPy 2D arrayi oluşturun (kare matris). Eğer bu matrislerin içindeki herhangi bir değer birden fazla ise, yani  matrisin içinde iki (veya ikiden fazla) tane 1 (1 bir örnek, bu herhangi bir sayı olabilir) var ise bu matrisi tekrardan oluşturun. Yani her matrisin içinde her karakter o matriste bir ve yalnızca bir kere bulunmalı.
+
+İki tane matrisi başarıyla oluşturdunuz, bu matrislere a ve b matrisleri diyelim. a ve b'yi matris çarpımına sokmanız gerekmekte. Sonucunda çıkan matris, ki buna c diyelim, 3x3'lük olmalı.
+
+Sonuçta çıkan c matrisini reshape metodu ile tek bir satır haline çevirin.
+
+Sonrasında ise, şunu uygulayın:
+
+import matplotlib.pyplot as plt
+plt.hist(c) # Histogram grafiği oluşturur
+plt.show() # Oluşturulan grafiği karşınıza çıkarır.
+
+
+Karşınıza ALI gibi bir grafik çıkmalı. Çıkan grafiği bu haftanın klasörü altında bulabilirsiniz.
+
+Not: Her şeyden önce, np.random.seed(42) metodunu kullanın, bu komut herkeste aynı random sayıların çıkmasına yarar. Numpy'ı np olarak import ettikten hemen sonra aşağıdaki satıra np.random.seed(42) yazın, aksi takdirde haftanın klasöründeki grafiği elde edemezsiniz.
