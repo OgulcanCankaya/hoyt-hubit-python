@@ -18,3 +18,5 @@ plt.show() # Oluşturulan grafiği karşınıza çıkarır.
 Karşınıza ALI gibi bir grafik çıkmalı. Çıkan grafiği bu haftanın klasörü altında bulabilirsiniz.
 
 Not: Her şeyden önce, np.random.seed(42) metodunu kullanın, bu komut herkeste aynı random sayıların çıkmasına yarar. Numpy'ı np olarak import ettikten hemen sonra aşağıdaki satıra np.random.seed(42) yazın, aksi takdirde haftanın klasöründeki grafiği elde edemezsiniz.
+
+Ekleme: Random oluşturacağınız array, sadece rakamlardan oluşmalıdır.
